@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF1EEDE"
+    tools:context=".TentangAplikasi">
+
+    <TextView
+        android:id="@+id/texttugas"
+        android:layout_width="281dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="290dp"
+        android:text="Aplikasi ini di buat untuk memenuhi tugas" />
+
+    <TextView
+        android:id="@+id/textmatkul"
+        android:layout_width="224dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="310dp"
+        android:text="Aplikasi Komputasi Bergerak" />
+
+    <TextView
+        android:id="@+id/texttanggal"
+        android:layout_width="211dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="330dp"
+        android:text="Diselesaikan pada 01/07/2022" />
+
+
+</RelativeLayout>
